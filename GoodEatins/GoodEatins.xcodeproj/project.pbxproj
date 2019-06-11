@@ -12,6 +12,9 @@
 		30DAC08D22AF2BCC0001A839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DAC08B22AF2BCB0001A839 /* Main.storyboard */; };
 		30DAC08F22AF2BCE0001A839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DAC08E22AF2BCE0001A839 /* Assets.xcassets */; };
 		30DAC09222AF2BCE0001A839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30DAC09022AF2BCE0001A839 /* LaunchScreen.storyboard */; };
+		30DAC09D22AF30D10001A839 /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DAC09C22AF30D10001A839 /* FoodCategory.swift */; };
+		30DAC09F22AF31900001A839 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DAC09E22AF31900001A839 /* Recipe.swift */; };
+		30DAC0A122AF32240001A839 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DAC0A022AF32240001A839 /* DataSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		30DAC08E22AF2BCE0001A839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30DAC09122AF2BCE0001A839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30DAC09322AF2BCE0001A839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DAC09C22AF30D10001A839 /* FoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
+		30DAC09E22AF31900001A839 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		30DAC0A022AF32240001A839 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,41 @@
 		30DAC08622AF2BCB0001A839 /* GoodEatins */ = {
 			isa = PBXGroup;
 			children = (
+				30DAC09922AF2F560001A839 /* Model */,
+				30DAC09A22AF2F6E0001A839 /* View */,
+				30DAC09B22AF2F740001A839 /* Controller */,
 				30DAC08722AF2BCB0001A839 /* AppDelegate.swift */,
-				30DAC08922AF2BCB0001A839 /* ViewController.swift */,
 				30DAC08B22AF2BCB0001A839 /* Main.storyboard */,
 				30DAC08E22AF2BCE0001A839 /* Assets.xcassets */,
 				30DAC09022AF2BCE0001A839 /* LaunchScreen.storyboard */,
 				30DAC09322AF2BCE0001A839 /* Info.plist */,
 			);
 			path = GoodEatins;
+			sourceTree = "<group>";
+		};
+		30DAC09922AF2F560001A839 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30DAC09C22AF30D10001A839 /* FoodCategory.swift */,
+				30DAC09E22AF31900001A839 /* Recipe.swift */,
+				30DAC0A022AF32240001A839 /* DataSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30DAC09A22AF2F6E0001A839 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30DAC09B22AF2F740001A839 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30DAC08922AF2BCB0001A839 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				30DAC08A22AF2BCB0001A839 /* ViewController.swift in Sources */,
+				30DAC0A122AF32240001A839 /* DataSet.swift in Sources */,
+				30DAC09D22AF30D10001A839 /* FoodCategory.swift in Sources */,
 				30DAC08822AF2BCB0001A839 /* AppDelegate.swift in Sources */,
+				30DAC09F22AF31900001A839 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
